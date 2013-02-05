@@ -11,6 +11,10 @@ h2 {
   font-size: 24px;
 }
 
+.date {
+   font-size: 14px;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -51,9 +55,8 @@ h2 {
   border-top:3px solid #eee;
 }
 .post > h3.title span.date { 
-  position:absolute;
-  right:0;
-  font-size:0.9em;
+  color: #999;
+  font-size: 12px;
 }
 .post > .more {
   margin:10px 0;
