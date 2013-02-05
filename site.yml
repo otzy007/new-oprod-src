@@ -1,11 +1,10 @@
-title : Blog Title
+title : oprod.net
 tagline: Blog Tagline
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Andrei G
+  github : otzy007
+  twitter : otzy_007
+  feedburner : oprod
 
 navigation :
   - archive.html
