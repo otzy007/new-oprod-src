@@ -1,0 +1,15 @@
+---
+layout: post
+title: !binary |-
+  U2NyaXB0cw==
+joomla_id: 4
+joomla_url: !binary |-
+  c2NyaXB0cw==
+date: 2009-02-23 11:54:17.000000000 +02:00
+---
+<p><a href="http://oprod.net/index.php/news/4-blog/77-botim-php-script">php bot.im script</a>: simple [[php]] bot script for <a href="http://bot.im" target="_blank">bot.im</a></p>
+<p><a class="contentpagetitle" href="index.php?option=com_content&amp;view=article&amp;id=15:hashtag&amp;catid=1:news&amp;Itemid=2">Twitter Hashtag Auto-Link</a>: <a href="http://www.greasespot.net/">Greasemonkey </a>script</p>
+<p><a class="contentpagetitle" href="index.php?option=com_content&amp;view=article&amp;id=13:btproximity&amp;catid=1:news&amp;Itemid=2">btproximity</a>: lock the pc when you are gone  with a  [[bluetooth]]  phone</p>
+<p><a href="downloads/scripts/viewtyconv">viewtyconv:</a> bash script for converting movies using mencoder for LG KU 990 Viewty mobile phone.</p>
+<p><a href="downloads/scripts/upload.zip">php upload script:</a> little php script that handles file uploading</p>
+<p> </p>
