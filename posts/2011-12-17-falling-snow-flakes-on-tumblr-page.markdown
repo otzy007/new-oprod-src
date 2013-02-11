@@ -13,7 +13,7 @@ date: 2011-12-17 20:07:53.000000000 +02:00
 
 </p>
 <p>
-<script src="http://snipt.net/embed/042a8665bb99695f04710df60758d944" type="text/javascript"></script>
+<pre><code>&lt;script type="text/javascript" src="http://ec2.oprod.net/snow/snow.js"&gt;&lt;/script&gt;</code></pre>
 </p>
 <p>Don't forget to save ;)</p>
 <p>The script can be used also on Wordpress, Blogger or other CMS.</p>

@@ -14,11 +14,51 @@ date: 2011-10-08 16:14:43.000000000 +03:00
 <p>Create the file /etc/rc.d/rc.zram and put this script into it:</p>
 <p> </p>
 
-<script src="http://snipt.net/embed/75ce2bb2d1fb6f7442a71f3861f3a856" type="text/javascript"></script>
+<pre><code>#!/bin/bash
+# 
+# /etc/rc.d/rc.zram
+# Script to start zRam (Virtual Swap Compressed in RAM)
+
+# Size of swap space in MB
+# default 1GB
+SIZE=1024
+start() {
+  modprobe zram
+  echo $SIZE*1024*1024 | bc > /sys/block/zram0/disksize
+  mkswap /dev/zram0
+  swapon /dev/zram0
+}
+
+stop() {
+  swapoff /dev/zram0
+}
+
+case "$1" in
+  start)
+    start
+  ;;
+
+  stop)
+    stop
+  ;;
+
+  restart)
+    echo 1 > /sys/block/zram0/reset
+  ;;
+
+  *)
+  echo "Usage: $0 (start|stop|restart)"
+esac
+</code></pre>
 <p> </p>
 <p><strong>Remember to make it executable:</strong> chmod +x /etc/rc.d/rc.zram</p>
 <p> </p>
 <p>Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M</p>
 <p>
-<script src="http://snipt.net/embed/59f8882162d8e8e915de48d5336f014c" type="text/javascript"></script>
+<pre><code># Start zram swap space
+if [ -x /etc/rc.d/rc.zram ]
+then
+        /etc/rc.d/rc.zram start
+fi
+</code></pre>
 </p>

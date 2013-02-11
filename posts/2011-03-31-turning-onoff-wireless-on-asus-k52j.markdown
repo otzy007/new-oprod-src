@@ -13,9 +13,27 @@ date: 2011-03-31 21:31:42.000000000 +03:00
 <p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:
 
 </p>
-<script src="http://snipt.net/embed/09ca39d3491a2e7835be0025c21a9eab" type="text/javascript"></script>
+<pre><code>#Enable the Fn-F2 button to turn on/off wireless
+#/etc/acpi/events/default
+event=hotkey ATKD 0000005d
+action=/etc/acpi/asus-wireless-switch.sh</code></pre>
 
 <p>Then create another one: /etc/acpi/asus-wireless-switch.sh</p>
 
 <p>With this script in it:</p>
-<script type="text/javascript" src="http://snipt.net/embed/f6fe86eb87f0f53b9660ed24a0ae4c86"></script>
+<pre><code>#/etc/acpi/asus-wireless-switch.sh
+#based on http://ubuntuforums.org/archive/index.php/t-1460790.html
+#!/bin/sh
+WLANSTATUS=`cat /sys/class/ieee80211/phy0/rfkill*/state`
+
+test -z $WLANSTATUS && exit 1
+
+if [ $WLANSTATUS = 0 ]; then
+        echo 0 > /sys/devices/platform/asus_laptop/wlan
+        echo 1 > /sys/class/ieee80211/phy0/rfkill*/state
+elif [ $WLANSTATUS = 1 ]; then
+        echo 1 > /sys/devices/platform/asus_laptop/wlan
+        echo 0 > /sys/class/ieee80211/phy0/rfkill*/state
+fi
+
+</code></pre>
