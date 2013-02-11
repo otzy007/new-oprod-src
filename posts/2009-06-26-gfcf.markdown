@@ -7,4 +7,4 @@ joomla_url: !binary |-
   Z2ZjZg==
 date: 2009-06-26 13:03:23.000000000 +03:00
 ---
-<p>Now <a href="/">oprod.net</a> and also <a href="http://blog.oprod.net" target="_blank">my blog</a> have that Google Friend Connect gadget <img src="plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-cool.gif" border="0" alt="Cool" title="Cool" /></p><p>Feel free to leave some comments. </p>
+<p>Now <a href="http://oprod.net">oprod.net</a> and also <a href="http://blog.oprod.net" target="_blank">my blog</a> have that Google Friend Connect gadget <img src="plugins/editors/tinymce/jscripts/tiny_mce/plugins/emotions/images/smiley-cool.gif" border="0" alt="Cool" title="Cool" /></p><p>Feel free to leave some comments. </p>
