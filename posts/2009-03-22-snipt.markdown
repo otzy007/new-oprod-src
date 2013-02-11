@@ -11,5 +11,12 @@ date: 2009-03-22 19:41:55.000000000 +02:00
 <p>My first contribution is a video convert bash script for the LG Viewty mobile phone.</p>
 
 <p>Here's the script:</p>
-<script src="http://snipt.net/embed/11c75be38b1f7d2e66e49924141f430e" type="text/javascript"></script>
+<pre><code>#!/bin/bash
+
+#convert movies into divx format for lg ku990 viewty
+
+mencoder "$1" -ovc lavc -oac lavc -lavcopts acodec=libmp3lame:abitrate=128 \
+-vf scale=400:240 -ffourcc DX50 -fps 23 -o "$2"
+
+</code></pre>
 <p> </p>
