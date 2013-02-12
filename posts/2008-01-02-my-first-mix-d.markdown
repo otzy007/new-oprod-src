@@ -6,6 +6,7 @@ joomla_id: 40
 joomla_url: !binary |-
   bXktZmlyc3QtbWl4LWQ=
 date: 2008-01-02 00:00:00.000000000 +02:00
+tags: [DJ, Mix]
 ---
 <p>On the last day of the year 2007, I've made my first and last 2007 mix ;)</p>
 <script src="http://mixesdb.com/db/extensions/audio_player/audio-player.js"></script>

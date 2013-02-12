@@ -6,6 +6,7 @@ joomla_id: 8
 joomla_url: !binary |-
   c25pcHQ=
 date: 2009-03-22 19:41:55.000000000 +02:00
+tags: [snipt, viewtyconv, Viewty, mencoder]
 ---
 <p>You can see some of my little projects on <a href="http://snipt.net/oz" target="_blank">snipt.net</a>.</p>
 <p>My first contribution is a video convert bash script for the LG Viewty mobile phone.</p>

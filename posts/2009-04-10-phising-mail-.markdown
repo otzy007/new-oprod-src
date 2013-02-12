@@ -11,7 +11,7 @@ Inca un mail de la raiffeisen bank :))
 
 
 <a href="http://vds-18de.1gb.ru/https/bt24.btrl.ro/index.html" target="_blank" rel="nofollow"></a>
-<blockquote>Raiffeisen Bank isi informeaza clientii ca in noaptea de sambata, 10 aprilie
+Raiffeisen Bank isi informeaza clientii ca in noaptea de sambata, 10 aprilie
 spre sambata, 11 aprilie, in intervalul 21.00-06.00 serviciul de Internet
 banking al bancii nu va functiona, deoarece banca efectueaza o migrare
 controlata a aplicatiilor sale IT. De asemenea, serviciul myBanking va fi
@@ -33,6 +33,6 @@ de clienti de retail (dintre care peste 100.000 IMM-uri) si peste 4.400
 corporatii mari si medii. Informatii despre toate produsele si serviciile
 oferite de Raiffeisen Bank pe <a onclick="return theMainWindow.showLinkWarning(this)" href="http://83.167.103.117/eBankingWeb/login/" target="_blank" rel="nofollow">http://83.167.103.117/eBankingWeb/login/</a>
 <a href="http://nsilvania.ro/news_29052007/bottom.jpg" target="_blank">nsilvania.ro/news_29052007/bottom.jpg</a>" width="656"
-height="7"> </blockquote>
+height="7"> 
 
 Sa imi actualizez datele oare? =))
