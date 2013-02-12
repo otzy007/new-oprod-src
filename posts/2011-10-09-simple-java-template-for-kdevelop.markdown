@@ -10,7 +10,7 @@ tags: [KDevelop, Java, template]
 ---
 <p>To enable the template move the archive to:</p>
 <h5 class="contenttext">/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5>
-or
+<p>or</p>
 <h5 class="contenttext">~/.kde4/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5>
 
-<p>Download: <a href="https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116" target="_blank">https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116</a></p>
+<p>Download: <a href="https://opendesktop.org/content/download.php?content=145846&amp;id=1&amp;tan=74368116" target="_blank">https://opendesktop.org/content/download.php?content=145846&amp;id=1&amp;tan=74368116</a></p>
