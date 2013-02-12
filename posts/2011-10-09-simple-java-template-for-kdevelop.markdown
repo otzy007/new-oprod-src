@@ -8,8 +8,8 @@ joomla_url: !binary |-
 date: 2011-10-09 09:40:33.000000000 +03:00
 ---
 <p>To enable the template move the archive to:</p>
-<h4 class="contenttext">/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h4>
+<h5 class="contenttext">/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5>
 or
-<h4 class="contenttext">~/.kde4/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h4>
-<p> </p>
-<p>Download: <a href="http://kde-apps.org/content/download.php?content=145846&amp;id=1&amp;tan=8554812" target="_blank">http://kde-apps.org/content/download.php?content=145846&amp;id=1&amp;tan=8554812</a></p>
+<h5 class="contenttext">~/.kde4/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5>
+
+<p>Download: <a href="https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116" target="_blank">https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116</a></p>
