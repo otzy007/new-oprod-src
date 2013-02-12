@@ -6,20 +6,24 @@ joomla_id: 92
 joomla_url: !binary |-
   Y29tcHJlc3MtcmFtLXdpdGgtenJhbS1pbi1zbGFja3dhcmU=
 date: 2011-10-08 16:14:43.000000000 +03:00
+tags: [Slackware, zram]
 ---
-<h2><strong>Update: </strong>you can find the tarball for this script at: <a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz">http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz </a></h2>
-<p>Referring to this<a href="http://www.webupd8.org/2011/10/increased-performance-in-linux-with.html" target="_blank"> article</a> it seems that using a swap disk is slower than compressing the data in the memory.</p>
-<p>Enabling this under Slackware Linux it's pretty easy.</p>
-<p>Create the file /etc/rc.d/rc.zram and put this script into it:</p>
+<h4>Update: you can find the tarball for this script at: <a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz">http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz </a></h4>
+Referring to this<a href="http://www.webupd8.org/2011/10/increased-performance-in-linux-with.html" target="_blank"> article</a> it seems that using a swap disk is slower than compressing the data in the memory.
+Enabling this under Slackware Linux it's pretty easy.
+Create the file /etc/rc.d/rc.zram and put this script into it:
 
-<p><pre><code>#!/bin/bash
-# 
+```````````````````````````````````````````````````````
+#!/bin/bash
+#
 # /etc/rc.d/rc.zram
 # Script to start zRam (Virtual Swap Compressed in RAM)
-
+#
 # Size of swap space in MB
 # default 1GB
+
 SIZE=1024
+
 start() {
   modprobe zram
   echo $SIZE*1024*1024 | bc > /sys/block/zram0/disksize
@@ -47,16 +51,16 @@ case "$1" in
   *)
   echo "Usage: $0 (start|stop|restart)"
 esac
-</code></pre></p>
+```````````````````````````````````````````````````````
 
-<p><strong>Remember to make it executable:</strong> chmod +x /etc/rc.d/rc.zram</p>
+<strong>Remember to make it executable:</strong> chmod +x /etc/rc.d/rc.zram
 
-<p>Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M</p>
-<p>
-<pre><code># Start zram swap space
+Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M
+
+``````````````````````````````
+# Start zram swap space
 if [ -x /etc/rc.d/rc.zram ]
 then
         /etc/rc.d/rc.zram start
 fi
-</code></pre>
-</p>
+```````````````````````````````
