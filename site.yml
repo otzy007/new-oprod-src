@@ -12,4 +12,11 @@ navigation :
   - categories.html
   - pages.html
   - about.md
-  
+
+plugins:
+sitemap_generator: # all optional
+file_name: sitemap.xml
+exclude_id:
+- pages.html
+change_frequency_custom_name: changefreq
+priority_custom_variable_name: priority
