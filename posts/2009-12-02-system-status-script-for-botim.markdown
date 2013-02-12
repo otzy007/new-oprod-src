@@ -6,12 +6,14 @@ joomla_id: 78
 joomla_url: !binary |-
   c3lzdGVtLXN0YXR1cy1zY3JpcHQtZm9yLWJvdGlt
 date: 2009-12-02 18:56:15.000000000 +02:00
+tags: [status, script, bot.im]
 ---
 <p>Here's another script for a bot. You get from it various status informations by executing commands as: du, free or netstats. This project isn't finished yet so it could have some bugs. Enough talk, here's the script:</p>
 
 <p> </p>
 <p>
-<pre><code><?php
+<pre><code>
+&lt;?php
 ///////////////////////////////////////////////////
 //system status php script for bot.im
 //created by otzy_007(Andrei G.) http://oprod.net

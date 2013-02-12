@@ -8,6 +8,7 @@ joomla_url: !binary |-
   anJlbW90ZXNoZWxsLWEtc2ltcGxlLXNoZWxsLXNlcnZlci13cml0dGVuLWlu
   LWphdmE=
 date: 2011-11-17 22:08:36.000000000 +02:00
+tags: [JRemoteShell, Java, Shell]
 ---
 <p>Here's a small shell server written in Java by me.</p>
 <p> </p>

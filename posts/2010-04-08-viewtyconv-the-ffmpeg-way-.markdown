@@ -6,6 +6,7 @@ joomla_id: 86
 joomla_url: !binary |-
   dmlld3R5Y29udi10aGUtZmZtcGVnLXdheS0=
 date: 2010-04-08 08:49:19.000000000 +03:00
+tags: [viewtyconv, DivX, Linux, FFmpeg]
 ---
 <p>Here's the new viewtyconv script. It can be used to convert movies into DivX format for LG KU990 Viewty or similar phones from a Bash Shell. Now it's using [[ffmpeg]], no longer [[mencoder]]. To use this script you'll need to have installed <a href="http://ffmpeg.org/" target="_blank" title="ffmpeg">ffmpeg</a> and also <a href="http://lame.sourceforge.net/" target="_blank" title="lame">lame</a>. Ffmpeg must be configured with --enable-libmp3lame, otherwise the script will not work.</p>
 <p>

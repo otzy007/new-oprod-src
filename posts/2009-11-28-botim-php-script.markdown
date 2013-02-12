@@ -6,11 +6,12 @@ joomla_id: 77
 joomla_url: !binary |-
   Ym90aW0tcGhwLXNjcmlwdA==
 date: 2009-11-28 08:31:24.000000000 +02:00
+tags: [bot.im, shell]
 ---
 <p>After 6 months of no php coding at all, yesterday I've made a little script for a bot for twitter, jabber, yahoo messenger and other services using <a href="http://bot.im" target="_blank">bot.im</a>.The script is pretty simple, responds to some commands and also uses the exec() php command.</p>
 <p>And here's the script:</p>
 <pre><code>
-<?php
+&lt;?php
 
 //simple php script for bot.im
 //created by otzy_007(Andrei G.) http://oprod.net

@@ -6,8 +6,9 @@ joomla_id: 90
 joomla_url: !binary |-
   dHVybmluZy1vbm9mZi13aXJlbGVzcy1vbi1hc3VzLWs1Mmo=
 date: 2011-03-31 21:31:42.000000000 +03:00
+tags: [Asus, K52j, Slackware, Linux, wireless]
 ---
-<p>Here's a quick fix to enable/disable wireless using Fn+F2 on [[Slackware]] [[Linux]] on ASUS K52j and also the LED to indicate the status of the wireless.</p>
+<p>Here's a quick fix to enable/disable wireless using Fn+F2 on Slackware Linux on ASUS K52j and also the LED to indicate the status of the wireless.</p>
 <p>First you need to create this file: /etc/acpi/events/etc/acpi/events/asus-wireless-switch</p>
 <p>This file will contain the hotkey and the path to the script which is setting the wireless ON/OFF.</p>
 <p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:
