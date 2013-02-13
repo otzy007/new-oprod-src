@@ -51,10 +51,13 @@ h2 {
 /* posts index */
 .post > h3.title {
   position:relative;
-  padding-top:10px;
+  padding-top:5px;
+  font-size:20px;
   border-top:3px solid #eee;
 }
-.post > h3.title span.date { 
+.post > span.date { 
+  padding-top:0px;
+  border-top:0px;
   color: #999;
   font-size: 12px;
 }
