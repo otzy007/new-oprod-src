@@ -1,9 +1,11 @@
 ---
 # Usage: http://ruhoh.com/usage/configure/ 
 
-RuhohSpec: '1.0'
-theme : twitter
+RuhohSpec: "2.1"
+"twitter":
+  use: "theme"
 production_url : http://oprod.net
+base_path: "/"
 
 posts:
   permalink: /:categories/:title/
