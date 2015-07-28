@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    name: oprod
+    framework:
+      name: rack
+      info:
+        mem: 128M
+        description: Rack Application
+        exec: 
+    infra: rs
+    url: ${name}.${target-base}
+    mem: 128M
+    instances: 1
